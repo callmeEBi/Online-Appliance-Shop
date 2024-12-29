@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header class="header">
+      <nav class="nav">
+        <a href="#" class="nav__option">Home</a>
+        <a href="#" class="nav__option">Store</a>
+        <a href="#" class="nav__option">About</a>
+      </nav>
+      <h1 class="header__title">SHOP</h1>
+    </header>
+    <section class="section__cards">
+      <div class="card__wrapper">
+        <div class="card">
+          <h2 class="card__header" data-id="1">eager</h2>
+          <div class="card__body"><img src="./images/1.jpg" alt="" /></div>
+          <div class="card__footer">
+            <div class="card__price">
+              $<span class="card__price--number">12.54</span>
+            </div>
+            <a href="#" class="btn">Add to cart</a>
+          </div>
+        </div>
+        <div class="card">
+          <h2 class="card__header" data-id="2">put</h2>
+          <div class="card__body"><img src="./images/2.jpg" alt="" /></div>
+          <div class="card__footer">
+            <div class="card__price">
+              $<span class="card__price--number">23.80</span>
+            </div>
+            <a href="#" class="btn">Add to cart</a>
+          </div>
+        </div>
+        <div class="card">
+          <h2 class="card__header" data-id="3">will</h2>
+          <div class="card__body"><img src="./images/3.jpg" alt="" /></div>
+          <div class="card__footer">
+            <div class="card__price">
+              $<span class="card__price--number">14.12</span>
+            </div>
+            <a href="#" class="btn">Add to cart</a>
+          </div>
+        </div>
+        <div class="card">
+          <h2 class="card__header" data-id="4">though</h2>
+          <div class="card__body"><img src="./images/4.jpg" alt="" /></div>
+          <div class="card__footer">
+            <div class="card__price">
+              $<span class="card__price--number">46.2</span>
+            </div>
+            <a href="#" class="btn">Add to cart</a>
+          </div>
+        </div>
+        <div class="card">
+          <h2 class="card__header" data-id="5">fair</h2>
+          <div class="card__body"><img src="./images/5.jpg" alt="" /></div>
+          <div class="card__footer">
+            <div class="card__price">
+              $<span class="card__price--number">59.43</span>
+            </div>
+            <a href="#" class="btn">Add to cart</a>
+          </div>
+        </div>
+        <div class="card">
+          <h2 class="card__header" data-id="6">part</h2>
+          <div class="card__body"><img src="./images/6.jpg" alt="" /></div>
+          <div class="card__footer">
+            <div class="card__price">
+              $<span class="card__price--number">68.78</span>
+            </div>
+            <a href="#" class="btn">Add to cart</a>
+          </div>
+        </div>
+        <div class="card">
+          <h2 class="card__header" data-id="7">frighten</h2>
+          <div class="card__body"><img src="./images/7.jpg" alt="" /></div>
+          <div class="card__footer">
+            <div class="card__price">
+              $<span class="card__price--number">64.13</span>
+            </div>
+            <a href="#" class="btn">Add to cart</a>
+          </div>
+        </div>
+        <div class="card">
+          <h2 class="card__header" data-id="8">useful</h2>
+          <div class="card__body"><img src="./images/8.jpg" alt="" /></div>
+          <div class="card__footer">
+            <div class="card__price">
+              $<span class="card__price--number">88.78</span>
+            </div>
+            <a href="#" class="btn">Add to cart</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section__cart">
+      <h2 class="section__cart--title">cart</h2>
+      <table class="cart_table">
+        <thead>
+          <tr>
+            <th>Item</th>
+            <th>Price</th>
+            <th>Quantity</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr class="product_row u-hidden">
+            <td class="product_in_cart">
+              <img src="./images/1.jpg" alt="" />
+              <div class="product_in_cart--name">Album 1</div>
+            </td>
+            <td class="cost_in_cart">
+              $ <span class="cost_in_cart--number">5.90</span>
+            </td>
+            <td class="quantity_in_cart">
+              <input
+                type="number"
+                name=""
+                class="quantity_in_cart--input"
+                min="1"
+                value="1"
+              />
+              <a href="#" class="btn btn--remove">Remove</a>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      <div class="total_price">
+        <p>Total Price</p>
+        <p>$ <span class="total_price--number">0.00</span></p>
+      </div>
+    </section>
+    <script src="scripts/script.js"></script>
+  </body>
+</html>
